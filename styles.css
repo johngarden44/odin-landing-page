@@ -7,6 +7,8 @@ body > div {
     padding: 0 20%;
 }
 
+/* START OF HEADER STYLES */
+
 .header {
     background-color:#1F2937;
 }
@@ -69,11 +71,48 @@ li {
 
 h1 {
     font-size: 48px;
+    font-weight: 800;
 }
 
-h2 {
+.header-container h2 {
     font-size: 24px;
 }
+
+/* END OF HEADER STYLES */
+
+/* START OF PRODUCT INFO STYLES */
+
+.product-info h2{
+    text-align: center;
+    padding: 40px 0;
+    font-weight:900;
+    font-size: 36px;
+}
+
+.product-info img{
+    border-color: #3882F6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    width:136px;
+    height:136px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.product-image-container {
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-bottom: 100px;
+}
+
+figcaption {
+    text-align: center;
+    width:136px;
+}
+
+/* END OF PRODUCT INFO STYLES*/
 
 button {
     background-color: #3882F6;
