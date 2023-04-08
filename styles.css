@@ -1,10 +1,11 @@
 * {
     padding:0;
     margin:0;
+    font-family: "Roboto", Helvetica, sans-serif
 }
 
 body > div {
-    padding: 0 20%;
+    padding: 0 15%;
 }
 
 /* START OF HEADER STYLES */
@@ -65,8 +66,6 @@ a {
     font-size:18px;
 }
 
-li {
-    list-style-type:none;
 }
 
 h1 {
@@ -91,11 +90,11 @@ h1 {
 
 .product-info img{
     border-color: #3882F6;
-    border-width: 3px;
+    border-width: 4px;
     border-style: solid;
-    border-radius: 15px;
-    width:136px;
-    height:136px;
+    border-radius: 20px;
+    width:250px;
+    height:250px;
     margin-bottom: 8px;
     box-sizing: border-box;
 }
@@ -103,16 +102,48 @@ h1 {
 .product-image-container {
     display:flex;
     justify-content:center;
-    gap:40px;
     margin-bottom: 100px;
+    gap:50px;
+}
+
+figure {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 figcaption {
     text-align: center;
-    width:136px;
+    width:250px
 }
 
 /* END OF PRODUCT INFO STYLES*/
+
+/* START OF QUOTE SECTION STYLES */
+
+.quote {
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction:column;
+    padding-top: 150px;
+    padding-bottom:130px;
+}
+
+.quote blockquote {
+    font-style:italic;
+    font-size:30px;
+    color: #1F2937;
+    padding:0 50px 30px 50px;
+}
+
+.quote p {
+    align-self: flex-end;
+    padding-right:50px;
+    font-size:20px;
+    font-weight:700;
+}
+
+/* END OF QUOTE BLOCK STYLES */
 
 button {
     background-color: #3882F6;
@@ -122,3 +153,6 @@ button {
     padding:5px 20px;
     width:100px
 }
+
+li {
+    list-style-type:none;
